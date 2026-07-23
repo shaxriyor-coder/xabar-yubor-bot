@@ -1,0 +1,28 @@
+# Maxfiy ma'lumotlar - HECH QACHON github'ga push qilinmasin
+.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Telethon session fayllari (agar fayl-asosli session ishlatilsa)
+*.session
+*.session-journal
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Loglar
+*.log
