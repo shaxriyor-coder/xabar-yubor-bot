@@ -1,28 +1,55 @@
-# Maxfiy ma'lumotlar - HECH QACHON github'ga push qilinmasin
+# Secrets and local environment files
 .env
+.env.*
+!.env.example
 
-# Python
+# Python bytecode and virtual environments
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Virtual environment
+*.py[cod]
 .venv/
 venv/
 env/
+ENV/
 
-# Telethon session fayllari (agar fayl-asosli session ishlatilsa)
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test, coverage, and tool caches
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.pyright/
+.ruff_cache/
+.tox/
+.nox/
+
+# Telegram client sessions and local database files
 *.session
 *.session-journal
+*.session-wal
+*.session-shm
+*.sqlite
+*.sqlite3
+*.db
+*.dump
+*.backup
 
-# IDE
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# IDE settings
 .vscode/
 .idea/
 
-# OS
+# Operating system files
 .DS_Store
 Thumbs.db
-
-# Loglar
-*.log
