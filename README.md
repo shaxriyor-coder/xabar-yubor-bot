@@ -258,8 +258,3 @@ Administratorlar majburiy kanallar va Premium foydalanuvchilarini boshqarishi, s
 - Sessiya oshkor bo'lishi mumkin bo'lsa, Telegram **Settings → Devices** orqali uni bekor qiling. Botda akkauntni uzish tugmasi ham mavjud.
 - A'zolik tekshiruvi ishlashi uchun botni har bir majburiy kanalga administrator qilib qo'shing.
 - Repozitoriyada hozircha avtomatlashtirilgan testlar mavjud emas.
-
-### Rezyume uchun qisqa tavsif
-
-- aiogram va Telethon asosida asinxron Telegram bot yaratildi; QR/telefon orqali autentifikatsiya, 2FA va PostgreSQL’da saqlanadigan foydalanuvchi sessiyalari joriy etildi.
-- Kampaniya va obuna jarayonlari, administrator vositalari hamda foydalanuvchi, kanal va yuborish statistikasi uchun ma'lumotlar modellari ishlab chiqildi.
